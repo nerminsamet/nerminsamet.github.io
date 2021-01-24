@@ -10,4 +10,4 @@ venue: "ACM ICMR 2017"
 arxiv: https://arxiv.org/abs/1704.03057
 bib: bib/acm17.bib
 ---
-TODO
+
