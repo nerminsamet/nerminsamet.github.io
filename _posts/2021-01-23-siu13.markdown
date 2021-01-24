@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Recognizing Human Actions From Noisy Videos via Multiple Instance Learning"
+date:   2013-01-23 20:00:00 +03:00
+image: /images/draw.png
+categories: research
+author: "Nermin Samet"
+authors: "Fadime Sener, <strong>Nermin Samet</strong>,  Pinar Duygulu, Nazli Ikizler-Cinbis"
+venue: "SIU 2013"
+paper: http://users.metu.edu.tr/snermin/papers/siu2013.pdf
+bib: bib/siu13.bib
+---
+TODO

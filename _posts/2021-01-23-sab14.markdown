@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Ground-nesting Insects could use Visual Tracking for Monitoring Nest Position during Learning Flights"
+date:   2014-01-23 20:00:00 +03:00
+image: /images/draw.png
+categories: research
+author: "Nermin Samet"
+authors: "<strong>Nermin Samet</strong>, Jochen Zeil, Elmar Mair, Norbert Boeddeker, Wolfgang Stuerzl"
+venue: "SAB 2014 (Best Paper Finalist)"
+paper: http://users.metu.edu.tr/snermin/papers/sab2014.pdf
+bib: bib/sab14.bib
+---
+TODO

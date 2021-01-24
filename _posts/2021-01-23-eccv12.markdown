@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Identification of Illustrators"
+date:   2012-01-23 20:00:00 +03:00
+image: /images/draw.png
+categories: research
+author: "Nermin Samet"
+authors: "Fadime Sener, <strong>Nermin Samet</strong>,  Pinar Duygulu"
+venue: "ECCV 2012 (VISART: 1st Workshop on Computer Vision for Art Analysis)"
+paper: http://users.metu.edu.tr/snermin/papers/eccv2012.pdf
+bib: bib/eccv12.bib
+---
+TODO
