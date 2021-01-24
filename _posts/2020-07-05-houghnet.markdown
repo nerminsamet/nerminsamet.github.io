@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "HoughNet: Integrating near and long-range evidence for bottom-up object detection"
+date:   2020-07-05 20:00:00 +03:00
+image: /images/draw.png
+categories: research
+author: "Nermin Samet"
+authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Emre Akbas"
+venue: "ECCV 2020"
+arxiv: https://arxiv.org/abs/2007.02355
+bib: bib/houghnet.bib
+---
+
