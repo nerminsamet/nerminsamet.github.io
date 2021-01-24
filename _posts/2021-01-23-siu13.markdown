@@ -6,8 +6,7 @@ image: /images/draw.png
 categories: research
 author: "Nermin Samet"
 authors: "Fadime Sener, <strong>Nermin Samet</strong>,  Pinar Duygulu, Nazli Ikizler-Cinbis"
-venue: "SIU 2013"
+venue: "SIU"
 paper: http://users.metu.edu.tr/snermin/papers/siu2013.pdf
 bib: bib/siu13.bib
 ---
-TODO

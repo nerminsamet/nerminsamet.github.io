@@ -69,28 +69,28 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <em>{{post.venue}}</em> {{ post.date | date: "%Y" }}
               <br>
-              {% if post.bib %}
-              <a href="{{post.bib}}">bib</a> /
-              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
               {% if post.paper %}
               <a href="{{post.paper}}">paper</a> /
               {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
+              {% endif %}
+              {% if post.video %}
+              <a href="{{post.video}}">video</a> /
               {% endif %}
               {% if post.poster %}
               <a href="{{post.poster}}">poster</a> /
               {% endif %}
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
+              {% endif %}
+              {% if post.bib %}
+              <a target="_blank" href="{{post.bib}}">bib</a> /
               {% endif %}
               <p></p>
               {{ post.excerpt }}

@@ -6,8 +6,7 @@ image: /images/draw.png
 categories: research
 author: "Nermin Samet"
 authors: "Samet Hicsonmez, <strong>Nermin Samet</strong>, Fadime Sener, Pinar Duygulu"
-venue: "ACM ICMR 2017"
+venue: "ACM ICMR"
 arxiv: https://arxiv.org/abs/1704.03057
 bib: bib/acm17.bib
 ---
-

@@ -6,8 +6,8 @@ image: /images/draw.png
 categories: research
 author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Jochen Zeil, Elmar Mair, Norbert Boeddeker, Wolfgang Stuerzl"
-venue: "SAB 2014 (Best Paper Finalist)"
+venue: "SAB"
 paper: http://users.metu.edu.tr/snermin/papers/sab2014.pdf
 bib: bib/sab14.bib
 ---
-TODO
+Best Paper Finalist

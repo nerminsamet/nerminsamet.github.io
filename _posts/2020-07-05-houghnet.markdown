@@ -6,7 +6,7 @@ image: /images/draw.png
 categories: research
 author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Emre Akbas"
-venue: "ECCV 2020"
+venue: "ECCV"
 arxiv: https://arxiv.org/abs/2007.02355
 bib: bib/houghnet.bib
 ---

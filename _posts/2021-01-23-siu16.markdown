@@ -6,8 +6,7 @@ image: /images/draw.png
 categories: research
 author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Fadime Sener"
-venue: "SIU 2016"
+venue: "SIU"
 paper: http://users.metu.edu.tr/snermin/papers/siu2016.pdf
 bib: bib/siu16.bib
 ---
-TODO
