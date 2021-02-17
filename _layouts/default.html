@@ -9,16 +9,18 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/styles/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles/academicons.min.css">
 
 </head>
 
 
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -32,17 +34,21 @@
                  Before coming to METU, I received my master degree from <a href="http://w3.bilkent.edu.tr/bilkent/" target="_blank">Bilkent University</a>, <a href="http://w3.cs.bilkent.edu.tr/en/" target="_blank">Computer Engineering Department</a> in 2014. <br>
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="mailto:nermin.samet@metu.edu.tr"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/nerminsamet">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com.tr/citations?user=kEVeHU0AAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/nermin-samet-a70007156"> LinkedIn </a>
+                <div class="contact-buttons">
+                  <a href="mailto:nermin.samet@metu.edu.tr" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+                  <a href="https://github.com/nerminsamet" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://scholar.google.com.tr/citations?user=kEVeHU0AAAAJ" target="_blank"><i class="ai ai-google-scholar fa-2x"></i></a>
+                  <a href="https://www.linkedin.com/in/nermin-samet-a70007156" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                </div>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/profile.jpeg">
+              <img style="width:80%;max-width:80%;border-radius:50%" alt="profile photo" src="images/profile.jpg">
             </td>
           </tr>
         </table>
+
+        <hr>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -71,27 +77,29 @@
               <br>
               <em>{{post.venue}}</em> {{ post.date | date: "%Y" }}
               <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.bib %}
-              <a target="_blank" href="{{post.bib}}">bib</a> /
-              {% endif %}
+              <div class="post-buttons">
+                {% if post.arxiv %}
+                <a href="{{post.arxiv}}" target="_blank"><button type="button" class="post-button"><i class="ai ai-arxiv fa-lg"></i><span>arxiv</span></button></a>
+                {% endif %}
+                {% if post.paper %}
+                <a href="{{post.paper}}" target="_blank"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>paper</span></button></a>
+                {% endif %}
+                {% if post.code %}
+                <a href="{{post.code}}" target="_blank"><button type="button" class="post-button"><i class="fab fa-github fa-lg"></i><span>code</span></button></a>
+                {% endif %}
+                {% if post.video %}
+                <a href="{{post.video}}" target="_blank"><button type="button" class="post-button"><i class="far fa-video fa-lg"></i><span>video</span></button></a>
+                {% endif %}
+                {% if post.poster %}
+                <a href="{{post.poster}}" target="_blank"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>poster</span></button></a>
+                {% endif %}
+                {% if post.slides %}
+                <a href="{{post.slides}}" target="_blank"><button type="button" class="post-button"><i class="far fa-presentation fa-lg"></i><span>slides</span></button></a>
+                {% endif %}
+                {% if post.bib %}
+                <a target="_blank" href="{{post.bib}}"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>bib</span></button></a>
+                {% endif %}
+              </div>
               <p></p>
               {{ post.excerpt }}
             </td>

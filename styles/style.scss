@@ -23,6 +23,10 @@ a:hover {
   text-decoration: none;
 }
 
+body {
+  background-color: #F9F9F9;
+}
+
 body,
 td,
 th,
@@ -103,3 +107,45 @@ span.highlight {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
+
+.contact-buttons {
+  text-align: center;
+}
+
+.contact-buttons i {
+  padding: 6px;
+}
+
+hr {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  border: 0;
+  border-top: 1px solid rgb(210, 210, 210);
+}
+
+.post-button {
+  background-color: #1772d0;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: transparent;
+  padding: 5px 5px;
+  outline: none;
+  min-height: 32px;
+}
+
+.post-button i {
+  padding-right: 5px;
+}
+
+.post-button:hover {
+  background-color: #f09228;
+}
+
+.post-buttons {
+  padding-top: 5px;
+}
+
+.post-buttons a {
+  padding-right: 5px;
+}
