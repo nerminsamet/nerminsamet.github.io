@@ -43,7 +43,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:80%;max-width:80%;border-radius:50%" alt="profile photo" src="images/profile.jpg">
+              <img style="width:70%;max-width:70%;border-radius:50%" alt="profile photo" src="images/profile.jpg">
             </td>
           </tr>
         </table>
@@ -53,7 +53,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
-              <h2>News</h2>
+              <h2><b>News</b></h2>
             </td>
           </tr>
         </table>
@@ -67,7 +67,7 @@
             <div class="timeline-item">
               <div class="timeline-date">
               <div class="timeline-dot" style="background-color: {{news.color}};"></div>
-                <span style="background-color: {{news.color}};">{{news.date | date: "%B / %Y"}}</span>
+                <span style="background-color: {{news.color}};">{{news.date | date: "%b %Y"}}</span>
               </div>
               <p class="timeline-title">{{news.title}}</p>
             </div>
@@ -82,11 +82,8 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                My primary research interest is artificial intelligence focusing on deep learning for computer vision. Within the area of computer vision, my specific interests are object recognition, image captioning and human action/activity understanding.
-              </p>
+            <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
+              <h2><b>Research</b></h2>
             </td>
           </tr>
         </table>
@@ -109,25 +106,25 @@
               <br>
               <div class="research-buttons">
                 {% if research.arxiv %}
-                <a href="{{research.arxiv}}" target="_blank"><button type="button" class="research-button"><i class="ai ai-arxiv fa-lg"></i><span>arxiv</span></button></a>
+                <a href="{{research.arxiv}}" target="_blank"><button type="button" class="research-button"><i class="ai ai-arxiv fa-lg"></i><span>arXiv</span></button></a>
                 {% endif %}
                 {% if research.paper %}
-                <a href="{{research.paper}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>paper</span></button></a>
+                <a href="{{research.paper}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>Paper</span></button></a>
                 {% endif %}
                 {% if research.code %}
-                <a href="{{research.code}}" target="_blank"><button type="button" class="research-button"><i class="fab fa-github fa-lg"></i><span>code</span></button></a>
+                <a href="{{research.code}}" target="_blank"><button type="button" class="research-button"><i class="fab fa-github fa-lg"></i><span>Code</span></button></a>
                 {% endif %}
                 {% if research.video %}
-                <a href="{{research.video}}" target="_blank"><button type="button" class="research-button"><i class="far fa-video fa-lg"></i><span>video</span></button></a>
+                <a href="{{research.video}}" target="_blank"><button type="button" class="research-button"><i class="far fa-video fa-lg"></i><span>Video</span></button></a>
                 {% endif %}
                 {% if research.researcher %}
-                <a href="{{research.researcher}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>researcher</span></button></a>
+                <a href="{{research.researcher}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>Researcher</span></button></a>
                 {% endif %}
                 {% if research.slides %}
-                <a href="{{research.slides}}" target="_blank"><button type="button" class="research-button"><i class="far fa-presentation fa-lg"></i><span>slides</span></button></a>
+                <a href="{{research.slides}}" target="_blank"><button type="button" class="research-button"><i class="far fa-presentation fa-lg"></i><span>Slides</span></button></a>
                 {% endif %}
                 {% if research.bib %}
-                <a target="_blank" href="{{research.bib}}"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>bib</span></button></a>
+                <a href="{{research.bib}}" target="_blank"><button type="button" class="research-button"><span>BibTeX</span></button></a>
                 {% endif %}
               </div>
               <p></p>
