@@ -52,6 +52,36 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
+            <td style="padding:2.5% 2.5% 0% 2.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+            </td>
+          </tr>
+        </table>
+
+        <div class="timeline">
+          <div class="timeline-news">
+
+            {% for news in site.categories.news %}
+            {% for cat in news.categories %}
+            {% if cat == 'news' %}
+            <div class="timeline-item">
+              <div class="timeline-date">
+              <div class="timeline-dot" style="background-color: {{news.color}};"></div>
+                <span style="background-color: {{news.color}};">{{news.date | date: "%B / %Y"}}</span>
+              </div>
+              <p class="timeline-title">{{news.title}}</p>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+
+          </div>
+        </div>
+
+        <hr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
@@ -62,46 +92,46 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
+          {% for research in site.categories.research %}
+          {% for cat in research.categories %}
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{research.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h3>{{research.title}}</h3>
               <br>
-              {{post.authors}}
+              {{research.authors}}
 
               <br>
-              <em>{{post.venue}}</em> {{ post.date | date: "%Y" }}
+              <em>{{research.venue}}</em> {{ research.date | date: "%Y" }}
               <br>
-              <div class="post-buttons">
-                {% if post.arxiv %}
-                <a href="{{post.arxiv}}" target="_blank"><button type="button" class="post-button"><i class="ai ai-arxiv fa-lg"></i><span>arxiv</span></button></a>
+              <div class="research-buttons">
+                {% if research.arxiv %}
+                <a href="{{research.arxiv}}" target="_blank"><button type="button" class="research-button"><i class="ai ai-arxiv fa-lg"></i><span>arxiv</span></button></a>
                 {% endif %}
-                {% if post.paper %}
-                <a href="{{post.paper}}" target="_blank"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>paper</span></button></a>
+                {% if research.paper %}
+                <a href="{{research.paper}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>paper</span></button></a>
                 {% endif %}
-                {% if post.code %}
-                <a href="{{post.code}}" target="_blank"><button type="button" class="post-button"><i class="fab fa-github fa-lg"></i><span>code</span></button></a>
+                {% if research.code %}
+                <a href="{{research.code}}" target="_blank"><button type="button" class="research-button"><i class="fab fa-github fa-lg"></i><span>code</span></button></a>
                 {% endif %}
-                {% if post.video %}
-                <a href="{{post.video}}" target="_blank"><button type="button" class="post-button"><i class="far fa-video fa-lg"></i><span>video</span></button></a>
+                {% if research.video %}
+                <a href="{{research.video}}" target="_blank"><button type="button" class="research-button"><i class="far fa-video fa-lg"></i><span>video</span></button></a>
                 {% endif %}
-                {% if post.poster %}
-                <a href="{{post.poster}}" target="_blank"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>poster</span></button></a>
+                {% if research.researcher %}
+                <a href="{{research.researcher}}" target="_blank"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>researcher</span></button></a>
                 {% endif %}
-                {% if post.slides %}
-                <a href="{{post.slides}}" target="_blank"><button type="button" class="post-button"><i class="far fa-presentation fa-lg"></i><span>slides</span></button></a>
+                {% if research.slides %}
+                <a href="{{research.slides}}" target="_blank"><button type="button" class="research-button"><i class="far fa-presentation fa-lg"></i><span>slides</span></button></a>
                 {% endif %}
-                {% if post.bib %}
-                <a target="_blank" href="{{post.bib}}"><button type="button" class="post-button"><i class="far fa-file-pdf fa-lg"></i><span>bib</span></button></a>
+                {% if research.bib %}
+                <a target="_blank" href="{{research.bib}}"><button type="button" class="research-button"><i class="far fa-file-pdf fa-lg"></i><span>bib</span></button></a>
                 {% endif %}
               </div>
               <p></p>
-              {{ post.excerpt }}
+              {{ research.excerpt }}
             </td>
           </tr>
           {% endif %}

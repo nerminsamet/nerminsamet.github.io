@@ -123,7 +123,7 @@ hr {
   border-top: 1px solid rgb(210, 210, 210);
 }
 
-.post-button {
+.research-button {
   background-color: #1772d0;
   color: white;
   cursor: pointer;
@@ -134,18 +134,63 @@ hr {
   min-height: 32px;
 }
 
-.post-button i {
+.research-button i {
   padding-right: 5px;
 }
 
-.post-button:hover {
+.research-button:hover {
   background-color: #f09228;
 }
 
-.post-buttons {
+.research-buttons {
   padding-top: 5px;
 }
 
-.post-buttons a {
+.research-buttons a {
   padding-right: 5px;
+}
+
+.timeline {
+  width: 100%;
+  border-left: 3px solid #ddd;
+  margin: 0px;
+  margin-left: 12px;
+  margin-bottom: 50px;
+}
+
+.timeline .timeline-item {
+  margin-bottom: 10px;
+}
+
+.timeline .timeline-news {
+  margin: 20px;
+}
+
+.timeline .timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  left: -27px;
+  top: 5px;
+}
+
+.timeline .timeline-date {
+  position: relative;
+}
+
+.timeline .timeline-date span {
+  color: #fff;
+  border-radius: 4px;
+  padding: 3px 5px;
+  font-size: 8pt;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.timeline .timeline-title {
+  font-size: 14px;
+  margin-top: 5px;
 }
