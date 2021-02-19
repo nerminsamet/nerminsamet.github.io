@@ -15,6 +15,7 @@
   <link href="{{ site.baseurl }}/styles/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ site.baseurl }}/styles/academicons.min.css">
   <link rel="icon" type="image/jpg" href="images/favicon.JPG"/>
+  <script type="text/javascript" src="{{ site.baseurl }}/js/toggleBib.js"></script>
 
 </head>
 
@@ -126,10 +127,15 @@
                 <a href="{{research.slides}}" target="_blank"><button type="button" class="research-button"><i class="far fa-presentation fa-lg"></i><span>Slides</span></button></a>
                 {% endif %}
                 {% if research.bib %}
-                <a href="{{research.bib}}" target="_blank"><button type="button" class="research-button"><span>BibTeX</span></button></a>
+                <a href="javascript:toggleBib('{{research.bib}}')"><button type="button" class="research-button"><span>BibTeX</span></button></a>
                 {% endif %}
               </div>
               {{ research.excerpt }}
+              {% if research.bib %}
+              <pre id="{{research.bib}}" style="display: none;">
+                {%- include {{research.bib}} -%}
+              </pre>
+              {% endif %}
             </td>
           </tr>
           {% endif %}

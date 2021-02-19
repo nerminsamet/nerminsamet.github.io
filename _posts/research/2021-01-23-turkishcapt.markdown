@@ -9,5 +9,5 @@ authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Pinar Duygulu, Emre Ak
 venue: "SIU"
 code: https://github.com/giddyyupp/turkish-image-captioning
 paper: http://users.metu.edu.tr/snermin/papers/siu2017.pdf
-bib: bib/siu17.bib
+bib: bib/turkishcapt.bib
 ---

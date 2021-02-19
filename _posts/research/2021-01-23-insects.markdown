@@ -7,7 +7,7 @@ author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Jochen Zeil, Elmar Mair, Norbert Boeddeker, Wolfgang Stuerzl"
 venue: "International Conference on Simulation of Adaptive Behavior (SAB)"
 paper: https://link.springer.com/chapter/10.1007/978-3-319-08864-8_11
-bib: bib/sab14.bib
+bib: bib/insects.bib
 desc: "Best Paper Finalist"
 ---
 
