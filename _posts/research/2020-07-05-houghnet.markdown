@@ -9,7 +9,7 @@ venue: "European Conference on Computer Vision (ECCV)"
 arxiv: https://arxiv.org/abs/2007.02355
 code: https://github.com/nerminsamet/houghnet
 paper: https://link.springer.com/chapter/10.1007/978-3-030-58595-2_25
-video:https://www.youtube.com/watch?v=u8O3pk-v5Us
+video: https://www.youtube.com/watch?v=u8O3pk-v5Us
 bib: bib/houghnet.bib
 ---
 
