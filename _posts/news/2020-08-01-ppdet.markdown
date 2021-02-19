@@ -3,5 +3,5 @@ layout: post
 title:  "Our paper entitled “Reducing Label Noise in Anchor-Free Object Detection” by Nermin Samet, Samet Hicsonmez and Emre Akbas is accepted to the British Machine Vision Conference (BMVC)."
 date:   2020-08-01 10:00:00 +03:00
 categories: news
-color: "#FA8072"
+color: "#40E0D0"
 ---
