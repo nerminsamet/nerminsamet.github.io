@@ -3,5 +3,5 @@ layout: post
 title:  "Our paper entitled “GANILLA: Generative adversarial networks for image to illustration translation” by Samet Hicsonmez, Nermin Samet, Emre Akbas and Pinar Duygulu is accepted to Image and Vision Computing."
 date:   2020-01-01 10:00:00 +03:00
 categories: news
-color: "#F08080"
+color: "#000080"
 ---
