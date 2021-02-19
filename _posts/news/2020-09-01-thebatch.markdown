@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Our work GANILLA has been featured in “The Batch”, a new weekly newsletter from deeplearning.ai. "
+date:   2020-09-01 10:00:00 +03:00
+categories: news
+color: "#ff5733"
+---

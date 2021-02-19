@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Our paper entitled “GANILLA: Generative adversarial networks for image to illustration translation” is accepted to Image and Vision Computing."
+date:   2020-01-01 10:00:00 +03:00
+categories: news
+color: "#ff5733"
+---
