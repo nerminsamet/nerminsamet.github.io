@@ -3,5 +3,5 @@ layout: post
 title:  "Our paper entitled “HoughNet: Integrating near and long-range evidence for bottom-up object detection” by Nermin Samet, Samet Hicsonmez and Emre Akbas is accepted to the European Conference on Computer Vision (ECCV)."
 date:   2020-06-01 10:00:00 +03:00
 categories: news
-color: "#ff5733"
+color: "#FF7F50"
 ---
