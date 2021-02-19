@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "GANILLA: Generative adversarial networks for image to illustration translation"
+date:   2020-01-01 20:00:00 +03:00
+categories: research
+author: "Nermin Samet"
+authors:  "Samet Hicsonmez, <strong>Nermin Samet</strong>, Emre Akbas"
+venue: "Image and Vision Computing (IMAVIS)"
+arxiv: https://arxiv.org/abs/2002.05638
+paper: https://www.sciencedirect.com/science/article/pii/S0262885620300184
+code: https://github.com/giddyyupp/ganilla
+bib: bib/ganilla.bib
+---
+
