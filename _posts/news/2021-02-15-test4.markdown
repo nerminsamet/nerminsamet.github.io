@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme deneme dene medenemed eneme denemedenem edeneme deneme denemed eneme "
-date:   2021-02-15 10:00:00 +03:00
+title:  "Our work GANILLA has been featured in “The Batch”, a new weekly newsletter from deeplearning.ai. "
+date:   2020-00-01 10:00:00 +03:00
 categories: news
-color: "#22b24c"
+color: "#ff5733"
 ---
