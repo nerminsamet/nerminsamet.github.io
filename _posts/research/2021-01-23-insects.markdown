@@ -9,5 +9,6 @@ authors: "<strong>Nermin Samet</strong>, Jochen Zeil, Elmar Mair, Norbert Boedde
 venue: "SAB"
 paper: http://users.metu.edu.tr/snermin/papers/sab2014.pdf
 bib: bib/sab14.bib
+desc: "Best Paper Finalist"
 ---
-Best Paper Finalist
+

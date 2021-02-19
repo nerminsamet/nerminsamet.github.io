@@ -93,7 +93,6 @@
           {% for cat in research.categories %}
           {% if cat == 'research' %}
           <tr>
-            
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{research.title}}</h3>
               <br>
@@ -101,6 +100,7 @@
 
               <br>
               <em>{{research.venue}}</em> {{ research.date | date: "%Y" }}
+              {%- if research.desc -%}, {{ research.desc }}{%- endif -%}
               <br>
               <div class="research-buttons">
                 {% if research.arxiv %}
