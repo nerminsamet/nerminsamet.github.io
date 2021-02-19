@@ -93,9 +93,7 @@
           {% for cat in research.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="{{research.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
+            
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{research.title}}</h3>
               <br>
@@ -127,7 +125,6 @@
                 <a href="{{research.bib}}" target="_blank"><button type="button" class="research-button"><span>BibTeX</span></button></a>
                 {% endif %}
               </div>
-              <p></p>
               {{ research.excerpt }}
             </td>
           </tr>
