@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I will be co-organizing the <a href='https://sites.google.com/view/wicvcvpr2021/home' target='_blank'>Women in Computer Vision Workshop</a> at CVPR 2021."
+title:  "I will be co-organizing the <a href='https://sites.google.com/view/wicvcvpr2021/home' target='_blank'>Women in Computer Vision Workshop</a> at <a href='http://cvpr2021.thecvf.com/' target='_blank'>CVPR 2021</a>."
 date:   2020-10-01 10:00:00 +03:00
 categories: news
 color: "#ff5733"
