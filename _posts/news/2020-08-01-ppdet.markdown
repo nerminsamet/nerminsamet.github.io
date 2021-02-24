@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Our paper entitled “Reducing Label Noise in Anchor-Free Object Detection” is accepted to the British Machine Vision Conference (BMVC)."
+title:  "Our paper entitled “<a href='https://arxiv.org/abs/2008.01167' target='_blank'>Reducing Label Noise in Anchor-Free Object Detection</a>” is accepted to the British Machine Vision Conference (BMVC)."
 date:   2020-08-01 10:00:00 +03:00
 categories: news
 color: "#ff5733"
