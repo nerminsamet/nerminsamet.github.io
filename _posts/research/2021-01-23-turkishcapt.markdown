@@ -8,6 +8,6 @@ author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Pinar Duygulu, Emre Akbas"
 venue: "Signal Processing and Communications Applications Conference (SIU)"
 code: https://github.com/giddyyupp/turkish-image-captioning
-paper: http://users.metu.edu.tr/snermin/papers/siu2017.pdf
+paper: https://ieeexplore.ieee.org/abstract/document/7960638
 bib: bib/turkishcapt.bib
 ---
