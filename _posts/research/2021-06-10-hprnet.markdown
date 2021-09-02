@@ -5,7 +5,7 @@ date:   2021-06-10 20:00:00 +03:00
 categories: research
 author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Emre Akbas"
-venue: "Image and Vision Computing (IMAVIS) 2021"
+venue: "Image and Vision Computing (IMAVIS)"
 arxiv: https://arxiv.org/abs/2106.04269
 paper: https://www.sciencedirect.com/science/article/pii/S0262885621001906?via%3Dihub
 code: https://github.com/nerminsamet/HPRNet
