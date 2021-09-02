@@ -7,6 +7,7 @@ author: "Nermin Samet"
 authors:  "Samet Hicsonmez, <strong>Nermin Samet</strong>, Emre Akbas, Pinar Duygulu"
 venue: "International Conference on Image Processing (ICIP)"
 arxiv: https://arxiv.org/abs/2102.06192
+paper: https://ieeexplore.ieee.org/document/9506637
 code: https://github.com/giddyyupp/AdvSegLoss
 bib: bib/advsegloss.bib
 ---
