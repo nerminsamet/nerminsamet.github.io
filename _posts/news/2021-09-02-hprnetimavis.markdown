@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "HPRNet is accepted to Image and Vision Computing: <a href='https://www.sciencedirect.com/science/article/pii/S0262885621001906?via%3Dihub' target='_blank'>publisher's page</a> "
