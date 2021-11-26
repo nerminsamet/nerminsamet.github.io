@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I will be co-organizing the <a href='https://sites.google.com/view/wicv/' target='_blank'>Women in Computer Vision Workshop</a> at <a href='https://cvpr2022.thecvf.com/' target='_blank'>CVPR 2022</a>."
-date:   2020-10-01 10:00:00 +03:00
+date:   2021-10-01 10:00:00 +03:00
 categories: news
 color: "#6495ED"
 ---
