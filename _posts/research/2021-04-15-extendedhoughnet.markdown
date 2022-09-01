@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HoughNet: Integrating near and long-range evidence for visual detection"
-date:   2021-04-15 20:00:00 +03:00
+date:   2022-08-16 20:00:00 +03:00
 categories: research
 author: "Nermin Samet"
 authors: "<strong>Nermin Samet</strong>, Samet Hicsonmez, Emre Akbas"
