@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "A Simple and Powerful Global Optimization for Unsupervised Video Object Segmentation"
+date:   2022-10-10 20:00:00 +03:00
+categories: research
+author: "Nermin Samet"
+authors: "Georgy Ponimatkin, <strong>Nermin Samet</strong>, Yang Xiao, Yuming Du, Renaud Marlet, Vincent Lepetit,"
+venue: "IEEE Winter Conference on Applications of Computer Vision (WACV)"
+arxiv: https://arxiv.org/abs/2209.09341
+paper: https://arxiv.org/abs/2209.09341
+code: https://github.com/ponimatkin/ssl-vos
+bib: bib/wacv23.bib
+---
