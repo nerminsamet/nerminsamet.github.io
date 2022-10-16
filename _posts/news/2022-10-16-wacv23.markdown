@@ -1,0 +1,9 @@
+---
+layout: post
+title:  " <a href='https://arxiv.org/abs/2007.02355' target='_blank'>“A Simple and Powerful Global Optimization for Unsupervised Video Object Segmentation”</a>
+Our paper entitled “A Simple and Powerful Global Optimization for Unsupervised Video Object Segmentation” is accepted to the IEEE Winter Conference on Applications of Computer Vision (WACV)."
+date:   2022-10-16 10:00:00 +03:00
+categories: news
+color: "#b5e7a0"
+---
+
