@@ -4,7 +4,7 @@ title:  "A Simple and Powerful Global Optimization for Unsupervised Video Object
 date:   2022-10-10 20:00:00 +03:00
 categories: research
 author: "Nermin Samet"
-authors: "Georgy Ponimatkin, <strong>Nermin Samet</strong>, Yang Xiao, Yuming Du, Renaud Marlet, Vincent Lepetit,"
+authors: "Georgy Ponimatkin, <strong>Nermin Samet</strong>, Yang Xiao, Yuming Du, Renaud Marlet, Vincent Lepetit"
 venue: "IEEE Winter Conference on Applications of Computer Vision (WACV)"
 arxiv: https://arxiv.org/abs/2209.09341
 paper: https://arxiv.org/abs/2209.09341
