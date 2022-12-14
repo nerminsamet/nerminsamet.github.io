@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Our paper entitled "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark” is now available on <a href='https://arxiv.org/abs/2211.15692' target='_blank'>arXiv</a>."
+date:   2022-12-14 10:00:00 +03:00
+categories: news
+color: "#ff5733"
+---
