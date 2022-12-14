@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "H3WB: Human3.6M 3D WholeBody Dataset and Benchmark"
+date:   2022-12-14 20:00:00 +03:00
+categories: research
+author: "Nermin Samet"
+authors: "Yue Zhu, <strong>Nermin Samet</strong>, David Picard"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2211.15692
+code: https://github.com/wholebody3d/wholebody3d
+bib: bib/h3wb.bib
+---
